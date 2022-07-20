@@ -5,12 +5,12 @@ main() {
 
   int age = int.parse(stdin.readLineSync() ?? '0');
 
-  if (age < 18) {
-    stdout.writeln('You are too young.');
-  } else if (age >= 18 && age <= 20) {
-    stdout.writeln('You are a young adult.');
-  } else {
+  if (age >= 21) {
     stdout.writeln('You are a citizen.');
+  } else if (age >= 18) {
+    stdout.writeln('You are too young.');
+  } else {
+    stdout.writeln('You are a young adult.');
   }
   /*  if (age) {
   } else {} */
