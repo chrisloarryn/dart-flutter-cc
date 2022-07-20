@@ -14,4 +14,8 @@ main() {
   }
   /*  if (age) {
   } else {} */
+
+  if (false) {
+    print('clean');
+  }
 }
