@@ -15,6 +15,10 @@ void main(List<String> args) {
   const location4 = const Location(18.2323, 39.900);
   const location5 = const Location(18.2323, 39.901);
   const location6 = const Location(18.2323, 39.901);
-  print(location4 == location5); // false
+  // print(location4 == location5); // false
   // print(location2 == location3); // false
+
+  const berlin = const Location(18.2323, 39.901);
+  print(location4 == location5); // false
+  print(berlin == location6); // true
 }

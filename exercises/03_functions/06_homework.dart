@@ -20,7 +20,9 @@ main() {
 }
 
 void printOutSomething(String message) => stdout.writeln(message);
+
 String readSomething() => stdin.readLineSync() ?? '';
+
 void processUser(double inSalary, int position) {
   printOutSomething('=========== Usuario $position =============');
 
