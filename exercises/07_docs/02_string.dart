@@ -15,4 +15,26 @@ main() {
 
   print('PadLeft: ${fullName.padLeft(20, '...')}');
   print('PadRight: ${fullName.padRight(20, '...')}');
+
+  print('Operator []: ${fullName[0]}');
+  print('Operator: *: ${'*' * 2}');
+
+  print('ReplaceAll: ${fullName.replaceAll(RegExp(r'e'), 'a')}...');
+  print('SubString: ${fullName.substring(0, 5)}...');
+  print('indexOf: ${fullName.indexOf('F')}');
+
+  print('Split: ${fullName.split(' ')}');
+  print('Split: ${fullName.split(' ').join('-')}');
+  print('Split: ${fullName.split(' ').join('-')}');
+  print('Split: ${fullName.split(' ').join('-')}');
+
+  print(
+      'Capitalize last letter: ${fullName[fullName.length - 1].toUpperCase()}');
+
+  print('Trim: ${fullName.trim()}');
+  print('Trim: ${fullName.trimLeft()}');
+  print('Trim: ${fullName.trimRight()}');
+
+  print('ToLower: ${fullName.toLowerCase()}');
+  print('ToUpper: ${fullName.toUpperCase()}');
 }
