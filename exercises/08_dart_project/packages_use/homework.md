@@ -3,7 +3,7 @@
 
 Realizar una petición HTTP hacia este API-Endpoint y mostrar información en consola utilizando clases personalizadas
 como lo vimos en clase.
-https://restcountries.eu/rest/v2/alpha/col
+https://restcountries.com/v3.1/name/colombia
 
 El cual es parte del sitio web de restcountries.eu
 https://restcountries.eu/#api-endpoints-language
